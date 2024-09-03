@@ -6,7 +6,7 @@
             <h3 class="page-title">{{ $page_name }}</h3>
         @endif
 
-        <ul class="breadcrumsssssb">
+        <ul class="breadcrumb">
             @if($page_name == 'Dashboard')
                 <li class="breadcrumb-item active"><a href="{{ route('admin.dashboard.index') }}">Dashboard</a></li>
             @else
